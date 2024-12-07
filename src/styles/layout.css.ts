@@ -6,7 +6,9 @@ export const container = style({
     fontFamily: 'sans-serif'
 });
 export const heading = style({
-    color: 'rebeccapurple'
+    color: 'rebeccapurple',
+    textTransform: 'capitalize',
+    fontSize: '3rem'
 });
 export const navLinks = style({
     display: 'flex',
